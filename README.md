@@ -8,7 +8,7 @@ A NestJS backend for an AI-powered customer support chatbot, built for the
 | Requirement            | Implementation                                            |
 |-------------------------|------------------------------------------------------------|
 | NestJS backend           | Modular structure: `chat`, `email`, `common`               |
-| AI model integration     | OpenAI Chat Completions API (`/chat`)                      |
+| AI model integration     | Groq AI API (`/chat`)                      |
 | Resend email integration | Test emails + AI chat summary emails (`/email/*`)          |
 | Swagger docs             | Auto-generated at `/api/docs`                              |
 | Sentry.io monitoring     | Global exception filter reports all 5xx errors to Sentry   |
