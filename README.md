@@ -27,7 +27,7 @@ src/
 ├── chat/
 │   ├── chat.module.ts
 │   ├── chat.controller.ts       # POST /chat, GET /chat/:sessionId/history
-│   ├── chat.service.ts          # OpenAI integration + in-memory history
+│   ├── chat.service.ts          # GroqAI integration + in-memory history
 │   └── dto/
 ├── email/
 │   ├── email.module.ts
