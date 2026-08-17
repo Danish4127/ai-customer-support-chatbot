@@ -37,7 +37,7 @@ export class ChatService {
 
     this.model =
       this.configService.get<string>('GROQ_MODEL') ||
-      'llama-3.3-70b-versatile';
+      'openai/gpt-oss-120b';
   }
 
   async sendMessage(message: string, sessionId?: string) {
